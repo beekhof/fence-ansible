@@ -1,0 +1,5 @@
+action: "discover"
+user: "{{ lookup('env','USER') | default('admin', true) }}"
+password: "{{ lookup('env','PASSWORD') | default('admin', true) }}"
+server: "{{ lookup('env','IPMI_SERVER') | default('localhost', true) }}"
+

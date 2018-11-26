@@ -1,0 +1,11 @@
+- name: playbook to provision hosts
+  strategy: debug
+  hosts: localhost
+  gather_facts: false
+  connection: local
+  roles:
+  - role: power
+    playbook_debug: true
+  vars:
+    action: discover
+    

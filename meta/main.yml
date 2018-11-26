@@ -1,0 +1,8 @@
+---
+galaxy_info:
+  description: Roles for managing the power status of hosts controlled by IPMI devices
+  issue_tracker_url: https://github.com/beekhof/fence-ansible/issues
+  license: Apache 2.0
+  min_ansible_version: 2.4.2
+
+dependencies: []

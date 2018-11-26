@@ -1,0 +1,7 @@
+- name: playbook to deprovision hosts
+  hosts: localhost
+  gather_facts: false
+  connection: local
+  roles:
+  - role: power
+    playbook_debug: true
